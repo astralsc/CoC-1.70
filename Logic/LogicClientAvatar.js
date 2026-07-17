@@ -6,7 +6,7 @@ class LogicClientAvatar {
     self.writeLong(0, 1) // Id
     self.writeLong(0, 1) // CurrentId
 
-    let InAlliance = true
+    let InAlliance = false
     self.writeBoolean(InAlliance) // InAlliance
     if (InAlliance === true) {
       self.writeLong(0, 1) // AllianceId
@@ -35,10 +35,10 @@ class LogicClientAvatar {
     self.writeInt(2) // ResourceSlotData
     {
       // Gold
-      self.writeInt(3000000)
+      self.writeInt(3000001)
       self.writeInt(1000000000)
       // Elixir
-      self.writeInt(3000001)
+      self.writeInt(3000002)
       self.writeInt(1000000000)
     }
     self.writeInt(0)
