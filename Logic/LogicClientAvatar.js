@@ -35,10 +35,10 @@ class LogicClientAvatar {
     self.writeInt(2) // ResourceSlotData
     {
       // Gold
-      self.writeInt(3000001)
+      self.writeInt(3000000)
       self.writeInt(1000000000)
       // Elixir
-      self.writeInt(3000002)
+      self.writeInt(3000001)
       self.writeInt(1000000000)
     }
     self.writeInt(0)
